@@ -1,0 +1,25 @@
+let str1="hello";
+let str2=" world"
+console.log(str1.length);
+console.log(str1.concat(str2));
+console.log(str1.charAt(1));
+console.log(str1.indexOf('e'));
+let str3=str1.concat(str2);
+let str4=new String(str3);
+console.log(str3.substring(6,11));
+console.log(str3.split(" "));
+console.log(str1.slice(-5,-2));
+console.log(str1.charCodeAt(2));
+console.log(str2.trimStart());
+console.log(str2.trim());
+let num=50;
+let newnum=num.toString();
+console.log(newnum.padStart(4,"0"));
+console.log(newnum.padEnd(4,"0"));
+console.log(str3.replace(" world"," javascript"));
+console.log(str3.includes("world"));
+console.log(str4);
+console.log(str4.replace("hello","new"));
+console.log(str4.includes("hello"));
+console.log(str3.repeat(2));
+console.log(typeof str4);

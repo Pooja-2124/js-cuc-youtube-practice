@@ -1,0 +1,14 @@
+arr1=[1,2,3,4,5];
+// console.log(arr1);
+// arr1.push(6);
+// console.log(arr1);
+// arr1.pop();
+// arr1.pop();
+// console.log(arr1);
+arr1.unshift(7);
+arr1.unshift(8);
+console.log(arr1);
+arr1.shift();
+arr1.shift();
+arr1.shift();
+console.log(arr1);
